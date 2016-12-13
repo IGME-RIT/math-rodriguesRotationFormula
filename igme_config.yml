@@ -1,0 +1,16 @@
+series: GLM Math
+title: Rodrigues Rotation Formula
+author:
+  name: Nicholas Gallagher
+  email:
+  github:
+description: This tutorial derives Rodrigues' rotation formula and shows how to compute it.
+language: C++
+tags:
+  - Math
+extra_resources:
+  - title: The Wikipedia article on Rodrigues Rotation Formula.
+    link: https://en.wikipedia.org/wiki/Rodrigues%27_rotation_formula
+connections:
+  - series: GLM Math
+    title: Rotation Matrix Tutorial
