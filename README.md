@@ -4,11 +4,11 @@ This tutorial derives Rodrigues' Rotation Formula.
 
 Rodrigues' Rotation Formula is a matrix formula for a rotation in 3D space centered at the origin about an arbitrary axis of rotation and arbitrary angle.
 
-Given an arbitrary unit vector *k* and angle &theta;, Rodrigues' Rotation formula gives us that the matrix for the rotation about *k* by &theta; radians is
+Given an arbitrary unit vector __k__ and angle &theta;, Rodrigues' Rotation formula gives us that the matrix for the rotation about __k__ by &theta; radians is
 
-R = I<sub>3</sub> + sin(&theta;)\[k\]<sub>&times;</sub> + (1-cos(&theta;))\[k\]<sub>&times;</sub><sup>2</sup>,
+R = I<sub>3</sub> + sin(&theta;)\[__k__\]<sub>&times;</sub> + (1-cos(&theta;))\[__k__\]<sub>&times;</sub><sup>2</sup>,
 
-where I<sub>3</sub> is the 3D identity matrix and \[k\]<sub>&times;</sub> is the [skew-symmetric cross product matrix](<https://en.wikipedia.org/wiki/Cross_product#Conversion_to_matrix_multiplication>).
+where I<sub>3</sub> is the 3D identity matrix and \[__k__\]<sub>&times;</sub> is the [skew-symmetric cross product matrix](<https://en.wikipedia.org/wiki/Cross_product#Conversion_to_matrix_multiplication>).
 
 # Setup
 
